@@ -4,7 +4,7 @@ function Show(props) {
     return (
         <div>
             <h1>Show View</h1>
-            <p>The <strong>{props.sanrioDanshi.name}</strong> is {props.sanrioDanshi.size}</p>
+            <p> <strong>{props.sanrioDanshi.name}</strong> is {props.sanrioDanshi.size}</p>
             <p>Its color is <span style={{ color: props.sanrioDanshi.color }}>{props.sanrioDanshi.color}</span></p>
 
             <br />
