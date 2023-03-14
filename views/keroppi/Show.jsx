@@ -4,7 +4,7 @@ function Show(props) {
     return (
         <div>
             <h1>Show View</h1>
-            <p>The <strong>{props.keroppi.name}</strong> is {props.keroppi.size}</p>
+            <p><strong>{props.keroppi.name}</strong> is {props.keroppi.size}</p>
             <p>Its color is <span style={{ color: props.keroppi.color }}>{props.keroppi.color}</span></p>
 
             <br />
