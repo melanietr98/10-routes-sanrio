@@ -4,8 +4,8 @@ function Show(props) {
     return (
         <div>
             <h1>Show View</h1>
-            <p>The <strong>{props.twinStars.name}</strong> is {props.twinStars.size}</p>
-            <p>Its color is <span style={{ color: props.twinStars.color }}>{props.twinStars.color}</span></p>
+            <p>Their <strong>{props.twinStars.name}</strong> are {props.twinStars.size}</p>
+            <p>their color is <span style={{ color: props.twinStars.color }}>{props.twinStars.color}</span></p>
 
             <br />
 
